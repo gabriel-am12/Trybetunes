@@ -30,9 +30,9 @@ class Header extends React.Component {
           { name }
         </h3>
         <nav>
-          <Link data-testid="link-to-search" to="/search">Search</Link>
-          <Link data-testid="link-to-favorites" to="/favorites">Favorites</Link>
-          <Link data-testid="link-to-profile" to="/profile">Profile</Link>
+          <Link data-testid="link-to-search" to="/search">Pesquisa</Link>
+          <Link data-testid="link-to-favorites" to="/favorites">Favoritos</Link>
+          <Link data-testid="link-to-profile" to="/profile">Perfil</Link>
         </nav>
       </header>
     );
