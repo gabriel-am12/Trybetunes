@@ -4,6 +4,7 @@ import Header from './Header';
 import getMusics from '../services/musicsAPI';
 import MusicCard from './MusicCard';
 import { addSong, removeSong, getFavoriteSongs } from '../services/favoriteSongsAPI';
+//a
 
 class Album extends Component {
   constructor(props) {
